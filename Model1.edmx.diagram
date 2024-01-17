@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="13ca6798e92a4c29b22245f4ce353d4b" Name="Diagram1">
+        <EntityTypeShape EntityType="SABModel.CHUNG_TU_BAN" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.CHUNG_TU_BAN_CT" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.CHUNG_TU_MUA" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.CHUNG_TU_MUA_CT" Width="1.5" PointX="8.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.DON_GIA_BAN" Width="1.5" PointX="5.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.HANG_HOA" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.KY_THONG_KE" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.KHACH_HANG" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.LUONG" Width="1.5" PointX="11" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.NHAN_VIEN" Width="1.5" PointX="8.625" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.PHAN_LOAI" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.sysdiagram" Width="1.5" PointX="7.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.TaiKhoan" Width="1.5" PointX="8.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.THUOC_TINH" Width="1.5" PointX="5.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SABModel.View_DMHANGHOA" Width="1.5" PointX="10.75" PointY="6.125" IsExpanded="true" />
+        <AssociationConnector Association="SABModel.FK_CHUNG_TU_BAN_CT_CHUNG_TU_BAN" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_CHUNG_TU_BAN_KY_THONG_KE" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_CHUNG_TU_BAN_KHACH_HANG" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_CHUNG_TU_BAN_CT_HANG_HOA" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_CHUNG_TU_MUA_CT_CHUNG_TU_MUA" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_CHUNG_TU_MUA_KY_THONG_KE" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_CHUNG_TU_MUA_KHACH_HANG1" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_CHUNG_TU_MUA_CT_HANG_HOA" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_DON_GIA_BAN_HANG_HOA" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_HANG_HOA_PHAN_LOAI" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_THUOC_TINH_HANG_HOA" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.fk_htk_ID_NHAN_VIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="SABModel.FK_TaiKhoan_NHAN_VIEN" ManuallyRouted="true" >
+          <ConnectorPoint PointX="9.125" PointY="3.25" />
+          <ConnectorPoint PointX="9.125" PointY="2.672587890625" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
